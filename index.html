@@ -1,0 +1,293 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,800;1,200;1,800&family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>popcorn</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container"><h1 class="logo">popcorn</h1></div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item" onclick="location.href='index.html'">Home</li>
+                    <li class="menu-list-item">Movies</li>
+                    <li class="menu-list-item">Series</li>
+                    <li class="menu-list-item">Popular</li>
+                    <li class="menu-list-item">Trends</li>
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img class="profile-picture" src="img/profile-pic.jpg">
+                <div class="profile-text-container">
+                    <span class="profile-text">Profile</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="toggle">
+                    <i class="fas fa-moon toggle-icon"></i>
+                    <i class="fas fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <i class="left-menu-icon fas fa-search"></i>
+        <i class="left-menu-icon fas fa-home"></i>
+        <i class="left-menu-icon fas fa-hourglass-half"></i>
+        <i class="left-menu-icon fas fa-tv"></i>
+        <i class="left-menu-icon fas fa-ticket-alt"></i>
+        <i class="left-menu-icon fas fa-bookmark"></i>
+        <i class="left-menu-icon fas fa-arrow-down"></i>
+    </div>
+    <div class="container">
+        <div class="content-container">
+            <div class="featured-content" style="background:linear-gradient(to bottom, rgba(0,0,0,0), #151515), url(img/f-1.jpg);">
+                <img class="featured-title" src="img/f-t-1.png" alt="">
+                <p class="featured-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore debitis unde odit ab, repellat voluptatibus voluptates velit quibusdam illo iure, dicta praesentium quaerat itaque dolorem inventore necessitatibus voluptatem, alias nobis!</p>
+                <button class="featured-button" onclick="location.href='https://www.netflix.com/np/title/70230640'" type="button"><i class="watch-button fas fa-play"></i>WATCH NOW</button>
+            </div>
+
+
+
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/spidermannowayhome.jpg" alt="">
+                            <span class="movie-list-item-title">Spiderman: No Way Home</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident laborum fuga atque consequatur sit in.</p>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/hotel.jfif" alt="">
+                            <span class="movie-list-item-title">Hotel Transylvania</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident laborum fuga atque consequatur sit in.</p>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/munich.jfif" alt="">
+                            <span class="movie-list-item-title">Munich</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident laborum fuga atque consequatur sit in.</p>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/dontlookup.jfif" alt="">
+                            <span class="movie-list-item-title">Don't Look Up</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident laborum fuga atque consequatur sit in.</p>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/malignant.jfif" alt="">
+                            <span class="movie-list-item-title">Malignant</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident laborum fuga atque consequatur sit in.</p>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/hilda.jfif" alt="">
+                            <span class="movie-list-item-title">Hilda</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident laborum fuga atque consequatur sit in.</p>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">HOT PICKS</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpeg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident laborum fuga atque consequatur sit in.</p>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/2.jpeg" alt="">
+                            <span class="movie-list-item-title">Star Wars</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident laborum fuga atque consequatur sit in.</p>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/3.jpg" alt="">
+                            <span class="movie-list-item-title">Storm</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident laborum fuga atque consequatur sit in.</p>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/4.jpg" alt="">
+                            <span class="movie-list-item-title">1917</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident laborum fuga atque consequatur sit in.</p>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/5.jpg" alt="">
+                            <span class="movie-list-item-title">Avengers</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident laborum fuga atque consequatur sit in.</p>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/6.jpg" alt="">
+                            <span class="movie-list-item-title">Rampage</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident laborum fuga atque consequatur sit in.</p>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/7.jpg" alt="">
+                            <span class="movie-list-item-title">Star Trek</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident laborum fuga atque consequatur sit in.</p>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">TOP PICKS</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/shawshankredemption.jpg" alt="">
+                            <span class="movie-list-item-title">Shawshank Redemption</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident laborum fuga atque consequatur sit in.</p>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/godfather.jpg" alt="">
+                            <span class="movie-list-item-title">Godfather</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident laborum fuga atque consequatur sit in.</p>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/spiritedaway.jfif" alt="">
+                            <span class="movie-list-item-title">Spirited Away</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident laborum fuga atque consequatur sit in.</p>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/12angrymen.jpg" alt="">
+                            <span class="movie-list-item-title">12 Angry Men</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident laborum fuga atque consequatur sit in.</p>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/savingprivateryan.jpg" alt="">
+                            <span class="movie-list-item-title">Saving Private Ryan</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident laborum fuga atque consequatur sit in.</p>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/schindlerslist.jfif" alt="">
+                            <span class="movie-list-item-title">Schinder's List</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident laborum fuga atque consequatur sit in.</p>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+
+            <div class="featured-content" style="background:linear-gradient(to bottom, rgba(0,0,0,0), #151515), url(img/f-2.jpg);">
+                <img class="featured-title" src="img/f-t-2.png" alt="">
+                <p class="featured-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore debitis unde odit ab, repellat voluptatibus voluptates velit quibusdam illo iure, dicta praesentium quaerat itaque dolorem inventore necessitatibus voluptatem, alias nobis!</p>
+                <button class="featured-button" type="button" onclick="location.href='https://www.netflix.com/np/title/80100172'"><i class="watch-button fas fa-play"></i>WATCH NOW</button>
+            </div>
+
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">YOUR PICKS</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/spidermanintothespiderverse.jfif" alt="">
+                            <span class="movie-list-item-title">Spiderman: Into The Spider Verse</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident laborum fuga atque consequatur sit in.</p>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/thedarkknight.jfif" alt="">
+                            <span class="movie-list-item-title">The Dark Knight</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident laborum fuga atque consequatur sit in.</p>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/dunkirk.jpg" alt="">
+                            <span class="movie-list-item-title">Dunkirk</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident laborum fuga atque consequatur sit in.</p>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/goodfellas.jfif" alt="">
+                            <span class="movie-list-item-title">Goodfellas</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident laborum fuga atque consequatur sit in.</p>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/silenceofthelamp.jpg" alt="">
+                            <span class="movie-list-item-title">Silence Of The Lamp</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident laborum fuga atque consequatur sit in.</p>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/mifallout.jfif" alt="">
+                            <span class="movie-list-item-title">Mission Impossible</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident laborum fuga atque consequatur sit in.</p>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">POPULAR MOVIES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/interstellar.jfif" alt="">
+                            <span class="movie-list-item-title">Interstellar</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident laborum fuga atque consequatur sit in.</p>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/endgame.jfif" alt="">
+                            <span class="movie-list-item-title">Avengers Endgame</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident laborum fuga atque consequatur sit in.</p>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/logan.webp" alt="">
+                            <span class="movie-list-item-title">Logan</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident laborum fuga atque consequatur sit in.</p>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/pulpfiction.jfif" alt="">
+                            <span class="movie-list-item-title">Pulp Fiction</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident laborum fuga atque consequatur sit in.</p>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/avatar.jfif" alt="">
+                            <span class="movie-list-item-title">Avatar</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident laborum fuga atque consequatur sit in.</p>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/jaws.jfif" alt="">
+                            <span class="movie-list-item-title">Jaws</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident laborum fuga atque consequatur sit in.</p>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
